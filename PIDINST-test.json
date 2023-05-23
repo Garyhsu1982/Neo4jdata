@@ -1,0 +1,82 @@
+{
+    "@context": "http://hdl.handle.net/",
+    "AlternateIdentifiers" : [
+        {
+        "AlternateIdentifier" : {
+           "AlternateIdentifierValue" : "2490",
+           "alternateIdentifierType" : "serialNumber"
+        }
+        }
+       ],
+       "Dates" : [
+        {
+        "date" : {
+           "date" : "1999-11-01",
+           "dateType" : "Commissioned"
+        }
+        }
+       ],
+       "Description" : "A high accuracy conductivity and temperature recorder with an optional pressure sensor designed for deployment on moorings. The IM model has an inductive modem for real-time data transmission plus internal flash memory data storage.",
+       "InstrumentType" : "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0022/",
+       "LandingPage" : "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/",
+       "Manufacturers" : [
+        {
+        "Manufacturer" : {
+           "manufacturerIdentifier" : {
+              "manufacturerIdentifierType" : "URL",
+              "manufacturerIdentifierValue" : "http://vocab.nerc.ac.uk/collection/L35/current/MAN0013/"
+           },
+           "manufacturerName" : "Sea-Bird Scientific",
+           "modelName" : "SBE 37-IM"
+        }
+        }
+       ],
+       "MeasuredVariables" : [
+        {
+        "MeasuredVariable" : {
+           "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/CNDCPR01/"
+        }
+        },
+        {
+        "MeasuredVariable" : {
+           "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/PSALPR01/"
+        }
+        },
+        {
+        "MeasuredVariable" : {
+           "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/"
+        }
+        },
+        {
+        "MeasuredVariable" : {
+           "VariableMeasured" : "http://vocab.nerc.ac.uk/collection/P01/current/PREXMCAT/"
+        }
+        }
+       ],
+       "Name" : "Sea-Bird SBE 37-IM MicroCAT C-T Sensor",
+       "Owners" : [
+        {
+        "Owner" : {
+           "ownerContact" : "louise.darroch@bodc.ac.uk",
+           "ownerIdentifier" : {
+              "ownerIdentifierType" : "URL",
+              "ownerIdentifierValue" : "http://vocab.nerc.ac.uk/collection/B75/current/ORG00009/"
+           },
+           "ownerName" : "National Oceanography Centre"
+        }
+        }
+       ],
+       "RelatedIdentifiers" : [
+        {
+        "RelatedIdentifier" : {
+           "RelatedIdentifierType" : "URL",
+           "RelatedIdentifierValue" : "https://www.bodc.ac.uk/data/documents/nodb/pdf/37imbrochurejul08.pdf",
+           "relationType" : "IsDescribedBy "
+        }
+        }
+       ],
+       "identifier-general-with-type" : {
+        "identiferType" : "MeasuringInstrument",
+        "identifierValue" : "http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+       }
+}
